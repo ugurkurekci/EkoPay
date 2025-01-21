@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EkoPay.Api", "EkoPay.Api\EkoPay.Api.csproj", "{CC4CE71D-4E86-4546-8889-3EF893D32BD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EkoPay.Core", "EkoPay.Core\EkoPay.Core.csproj", "{D872BDA4-CD93-4EB8-AF84-AA34799FC83A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integrations", "Integrations\Integrations.csproj", "{4E3E512E-BB27-4A77-83EC-D3C8ED51DF70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EkoPay.Service", "EkoPay.Service\EkoPay.Service.csproj", "{E3493A30-A1AF-4B1D-9304-6A91BCFC6870}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC4CE71D-4E86-4546-8889-3EF893D32BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4CE71D-4E86-4546-8889-3EF893D32BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4CE71D-4E86-4546-8889-3EF893D32BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4CE71D-4E86-4546-8889-3EF893D32BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D872BDA4-CD93-4EB8-AF84-AA34799FC83A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D872BDA4-CD93-4EB8-AF84-AA34799FC83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D872BDA4-CD93-4EB8-AF84-AA34799FC83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D872BDA4-CD93-4EB8-AF84-AA34799FC83A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E3E512E-BB27-4A77-83EC-D3C8ED51DF70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3E512E-BB27-4A77-83EC-D3C8ED51DF70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3E512E-BB27-4A77-83EC-D3C8ED51DF70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3E512E-BB27-4A77-83EC-D3C8ED51DF70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3493A30-A1AF-4B1D-9304-6A91BCFC6870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3493A30-A1AF-4B1D-9304-6A91BCFC6870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3493A30-A1AF-4B1D-9304-6A91BCFC6870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3493A30-A1AF-4B1D-9304-6A91BCFC6870}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
