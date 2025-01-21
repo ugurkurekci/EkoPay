@@ -1,9 +1,6 @@
-﻿using EkoPay.Core.Dtos;
+﻿namespace EkoPay.Core.Interfaces;
 
-namespace EkoPay.Core.Interfaces;
-
-public interface IPaymentService
+public interface IPaymentService : IPaymentProcessor
 {
-    Task<PaymentResponse> ProcessPayment(PaymentRequest paymentRequest);
 
 }

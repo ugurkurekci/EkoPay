@@ -1,6 +1,6 @@
 ﻿using EkoPay.Api.Controllers;
 using EkoPay.Core.Dtos;
-using Integrations.Interfaces;
+using EkoPay.Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 public class PaymentController : BaseController

@@ -14,6 +14,23 @@ public class PaymentService : IPaymentService
 
     public async Task<PaymentResponse> ProcessPayment(PaymentRequest paymentRequest)
     {
-        return await _paymentProcessor.ProcessPayment(paymentRequest);
+
+        PaymentResponse processPaymentResult = await _paymentProcessor.ProcessPayment(paymentRequest);
+        if (!processPaymentResult.Success)
+        {
+            return new PaymentResponse
+            {
+                Success = false,
+                Message = processPaymentResult.Message
+            };
+        }
+
+        return new PaymentResponse
+        {
+            Success = true,
+            Message = processPaymentResult.Message,
+            TransactionId = processPaymentResult.TransactionId,
+            Processor = processPaymentResult.Processor
+        };
     }
 }
